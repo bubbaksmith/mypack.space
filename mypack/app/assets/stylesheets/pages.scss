@@ -1,3 +1,29 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.master {
+  margin-left: auto;
+  margin-right: auto
+}
+
+$primary-darkcyan: #cceeee;
+$navbar-default-border: #006d6d;
+$navbar-default-brand-color: #132020;
+
+// Default navbar
+.navbar-default {
+  background-color: $primary-darkcyan;
+  border-color: $navbar-default-border;
+  margin-top: 10px;
+
+  .navbar-brand {
+    color: $navbar-default-brand-color;
+    &:hover,
+    &:focus {
+      color: $primary-darkcyan;
+      background-color: $navbar-default-border;
+    }
+  }
+}
+
