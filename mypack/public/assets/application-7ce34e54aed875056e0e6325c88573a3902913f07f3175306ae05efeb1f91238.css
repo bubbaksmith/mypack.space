@@ -7988,11 +7988,11 @@ button.close {
 .jumbotron {
   position: relative;
   min-height: 300px;
-  background-image: url("max_yonah.png");
+  background-image: url(/assets/max_yonah-7d951a11f9da7cc8246c49d195748fbdf595189ef7c0759bce6545d159d01668.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  text-shadow: 2px 1px 0px black;
+  text-shadow: 0px 0px 2px #000000;
 }
 /* line 40, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 .jumbotron .jumbo-text {

@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02129b4a-4ddf-4e33-b21b-52ebd65370ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mypack/app/assets/images/max_yonah.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-43d4caed1176d8db5bb8188e4db7454631441ea1680f922f8ad385194fe5130d.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-43d4caed1176d8db5bb8188e4db7454631441ea1680f922f8ad385194fe5130d.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-6470ba54a89bee0becf72ab22d8c3c0659a98c6f5f29a58039d40caad6d58555.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-6470ba54a89bee0becf72ab22d8c3c0659a98c6f5f29a58039d40caad6d58555.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-58abefdec14f0d098c4d4cc1fb9a7fcecd95d80002ba21b6999301f2ddbb8cab.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-58abefdec14f0d098c4d4cc1fb9a7fcecd95d80002ba21b6999301f2ddbb8cab.css.gz" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-f7d01702a91bb20b12e07b107b9bd865c9063fa40d9914add93ba965dc9f3d0f.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-f7d01702a91bb20b12e07b107b9bd865c9063fa40d9914add93ba965dc9f3d0f.js.gz" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/max_yonah-7d951a11f9da7cc8246c49d195748fbdf595189ef7c0759bce6545d159d01668.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss" afterPath="$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/app/views/pages/index.html.erb" afterPath="$PROJECT_DIR$/mypack/app/views/pages/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/public/assets/.sprockets-manifest-05c3841c59ace62d06aec634e065a4c0.json" afterPath="$PROJECT_DIR$/mypack/public/assets/.sprockets-manifest-05c3841c59ace62d06aec634e065a4c0.json" />
     </list>
     <ignored path="mypack.iws" />
@@ -37,8 +33,8 @@
       <file leaf-file-name="pages.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4464555">
-              <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.5550528">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -995,12 +991,12 @@
       <updated>1461278893675</updated>
       <workItem from="1461278894794" duration="2700000" />
       <workItem from="1461782816720" duration="8192000" />
-      <workItem from="1461845341247" duration="4498000" />
+      <workItem from="1461845341247" duration="4797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15390000" />
+    <option name="totallyTimeSpent" value="15689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1600" height="1417" extended-state="0" />
@@ -1320,8 +1316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4464555">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.5550528">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
           <folding />
         </state>
       </provider>
