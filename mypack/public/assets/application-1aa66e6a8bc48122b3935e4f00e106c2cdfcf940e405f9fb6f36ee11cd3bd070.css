@@ -8000,7 +8000,7 @@ button.close {
   bottom: 10px;
   left: 17px;
   color: white;
-  text-shadow: 1px 0 0;
+  font-weight: bold;
 }
 /* line 47, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 .jumbotron .jumbo-text h2 {
