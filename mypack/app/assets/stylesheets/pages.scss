@@ -4,25 +4,53 @@
 
 .master {
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  max-width: 1000px
 }
 
-$primary-darkcyan: #cceeee;
-$navbar-default-border: #006d6d;
-$navbar-default-brand-color: #132020;
+//$primary-darkcyan: #cceeee;
+//$navbar-default-border: #006d6d;
+//$navbar-default-brand-color: #132020;
+//
+//// Default navbar
+//.navbar-default {
+//  background-color: $primary-darkcyan;
+//  border-color: $navbar-default-border;
+//  margin-top: 10px;
+//
+//  .navbar-brand {
+//    color: $navbar-default-brand-color;
+//    &:hover,
+//    &:focus {
+//      color: $primary-darkcyan;
+//      background-color: $navbar-default-border;
+//    }
+//  }
+//}
 
-// Default navbar
-.navbar-default {
-  background-color: $primary-darkcyan;
-  border-color: $navbar-default-border;
-  margin-top: 10px;
+.jumbotron {
+  position: relative;
+  min-height: 300px;
+  background-image: url("max_yonah.png");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: bottom center;
+  text-shadow: 2px 1px 0px rgba(0, 0, 0, 1);
 
-  .navbar-brand {
-    color: $navbar-default-brand-color;
-    &:hover,
-    &:focus {
-      color: $primary-darkcyan;
-      background-color: $navbar-default-border;
+  .jumbo-text {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    color: white;
+    text-shadow: 1px 0 0;
+
+    h2 {
+      margin-bottom: 2px;
+    }
+
+    p {
+      margin-bottom: 10px;
+      //font-weight: bold;
     }
   }
 }
