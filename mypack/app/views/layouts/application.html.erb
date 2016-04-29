@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mypack</title>
+  <title>MyPack</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -47,9 +47,9 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <%= %>
-              <%= (@user and !@user['username'].nil?) ? (link_to "#{@user['username']}", :root) : (link_to "Sign Up", :sign_up) %>
-              <!--<%= link_to "Sign Up", :sign_up %>-->
+              <%= (@user and !@user['username'].nil?) ?
+                    (link_to "#{@user['username']}", :root) :
+                    (link_to "Sign Up", :sign_up) %>
             </li>
             <!--<li><a href="#">Login</a></li>-->
           </ul>
