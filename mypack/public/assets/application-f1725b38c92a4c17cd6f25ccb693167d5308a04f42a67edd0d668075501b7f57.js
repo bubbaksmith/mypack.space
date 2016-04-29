@@ -12364,6 +12364,10 @@ return jQuery;
 
 
 }).call(this);
+(function() {
+
+
+}).call(this);
 /* ========================================================================
  * Bootstrap: affix.js v3.2.0
  * http://getbootstrap.com/javascript/#affix

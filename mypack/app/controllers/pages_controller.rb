@@ -8,4 +8,8 @@ class PagesController < ApplicationController
   	@greeting = "Way to be a fucking shit head"
   end
 
+  def sign_up
+
+  end
+
 end
