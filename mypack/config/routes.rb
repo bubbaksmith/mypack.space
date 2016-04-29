@@ -10,8 +10,9 @@ Rails.application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-  get 'home' => 'pages#index'
+  get 'home'    => 'pages#index'
   get 'profile' => 'pages#index'
+  get 'weight'  => 'pages#weight'
 
   get  'sign_up' => 'users#new'
   post 'sign_up' => 'users#create'
