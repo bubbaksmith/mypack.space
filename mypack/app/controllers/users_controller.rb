@@ -6,7 +6,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     @user.save ?
       flash[:success] = "You signed up successfully!" :
-      flash[:alert] = "Form is invalid. See below for details."
+      flash[:alert]   = "Form is invalid. See below for details."
     render "new"
   end
 
