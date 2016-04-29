@@ -7986,12 +7986,12 @@ button.close {
 /* line 31, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 .jumbotron {
   position: relative;
-  min-height: 300px;
-  background-image: url(/assets/max_yonah/max_yonah_1600-c78d2114480243661b6b38014db73169a27ee07d6ad5925225f65bea93fedc03.webp);
+  min-height: 350px;
+  background-image: url(/images/max_yonah/max_yonah_1600_min.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  text-shadow: 0px 0px 2px #000000;
+  text-shadow: 0px 0px 3px #000000;
 }
 /* line 40, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 .jumbotron .jumbo-text {
