@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02129b4a-4ddf-4e33-b21b-52ebd65370ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mypack/app/assets/images/max_yonah/max_yonah_1600.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mypack/app/assets/stylesheets/sign_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mypack/app/views/layouts/_flash_message.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/app/assets/images/max_yonah.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-1aa66e6a8bc48122b3935e4f00e106c2cdfcf940e405f9fb6f36ee11cd3bd070.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-1aa66e6a8bc48122b3935e4f00e106c2cdfcf940e405f9fb6f36ee11cd3bd070.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-f7d01702a91bb20b12e07b107b9bd865c9063fa40d9914add93ba965dc9f3d0f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-f7d01702a91bb20b12e07b107b9bd865c9063fa40d9914add93ba965dc9f3d0f.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/max_yonah-7d951a11f9da7cc8246c49d195748fbdf595189ef7c0759bce6545d159d01668.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/Gemfile" afterPath="$PROJECT_DIR$/mypack/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mypack/app/assets/images/max_yonah/max_yonah_1600.webp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/app/assets/images/max_yonah/max_yonah_1600.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-68bea52b92cbc1309aa1d5ab790f3668533639b9946bc22a305a43998766e199.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-68bea52b92cbc1309aa1d5ab790f3668533639b9946bc22a305a43998766e199.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-f1725b38c92a4c17cd6f25ccb693167d5308a04f42a67edd0d668075501b7f57.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/application-f1725b38c92a4c17cd6f25ccb693167d5308a04f42a67edd0d668075501b7f57.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mypack/public/assets/max_yonah/max_yonah_1600-50a4162c16aead6fd932cfb7d28fde6205cdcadad1619d1ad8ba58f41e5ecf8e.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss" afterPath="$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/mypack/app/controllers/pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/mypack/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/mypack/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/app/models/user.rb" afterPath="$PROJECT_DIR$/mypack/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/mypack/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/app/views/pages/index.html.erb" afterPath="$PROJECT_DIR$/mypack/app/views/pages/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/mypack/app/views/users/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/config/database.yml" afterPath="$PROJECT_DIR$/mypack/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/config/routes.rb" afterPath="$PROJECT_DIR$/mypack/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/db/migrate/20160428232532_create_users.rb" afterPath="$PROJECT_DIR$/mypack/db/migrate/20160428232532_create_users.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/db/schema.rb" afterPath="$PROJECT_DIR$/mypack/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mypack/public/assets/.sprockets-manifest-05c3841c59ace62d06aec634e065a4c0.json" afterPath="$PROJECT_DIR$/mypack/public/assets/.sprockets-manifest-05c3841c59ace62d06aec634e065a4c0.json" />
     </list>
     <ignored path="mypack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mypack/Gemfile">
+      <file leaf-file-name="pages.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1972873">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.54834604">
+              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -79,7 +64,6 @@
         <option value="$PROJECT_DIR$/mypack/app/assets/stylesheets/bootstrap.scss" />
         <option value="$PROJECT_DIR$/mypack/app/assets/stylesheets/mixin.scss" />
         <option value="$PROJECT_DIR$/mypack/db/migrate/20160428232532_create_users.rb" />
-        <option value="$PROJECT_DIR$/mypack/config/database.yml" />
         <option value="$PROJECT_DIR$/mypack/app/models/user.rb" />
         <option value="$PROJECT_DIR$/mypack/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/mypack/app/views/layouts/_flash_message.html.erb" />
@@ -90,8 +74,9 @@
         <option value="$PROJECT_DIR$/mypack/config/routes.rb" />
         <option value="$PROJECT_DIR$/mypack/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/mypack/app/views/pages/index.html.erb" />
-        <option value="$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss" />
         <option value="$PROJECT_DIR$/mypack/Gemfile" />
+        <option value="$PROJECT_DIR$/mypack/config/database.yml" />
+        <option value="$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss" />
       </list>
     </option>
   </component>
@@ -1033,16 +1018,16 @@
       <workItem from="1461782816720" duration="8192000" />
       <workItem from="1461845341247" duration="6572000" />
       <workItem from="1461868700622" duration="1931000" />
-      <workItem from="1461885350568" duration="9358000" />
+      <workItem from="1461885350568" duration="10001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28753000" />
+    <option name="totallyTimeSpent" value="29396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1053,7 +1038,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19241774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19241774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1105,13 +1090,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <marker date="1461896232000" expanded="true" signature="185:253" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="722:1193" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="976:1191" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="1085:1118" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="1126:1187" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,13 +1098,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <marker date="1461896232000" expanded="true" signature="185:253" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="722:1193" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="976:1191" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="1085:1118" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="1126:1187" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,30 +1345,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mypack/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8618989">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-          <folding>
-            <marker date="1461886742000" expanded="true" signature="578:747" placeholder="development:" />
-            <marker date="1461886742000" expanded="true" signature="747:910" placeholder="test:" />
-            <marker date="1461886742000" expanded="true" signature="910:1077" placeholder="production:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mypack/app/views/pages/brian.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mypack/app/views/pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1517,23 +1470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mypack/app/views/pages/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14249364">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <marker date="1461895387000" expanded="true" signature="21:443" placeholder="..." />
-            <marker date="1461895387000" expanded="true" signature="28:37" placeholder="..." />
-            <marker date="1461895387000" expanded="true" signature="44:435" placeholder="..." />
-            <marker date="1461895387000" expanded="true" signature="64:389" placeholder="..." />
-            <marker date="1461895387000" expanded="true" signature="90:381" placeholder="..." />
-            <marker date="1461895387000" expanded="true" signature="118:371" placeholder="..." />
-            <marker date="1461895387000" expanded="true" signature="147:361" placeholder="..." />
-            <marker date="1461895387000" expanded="true" signature="417:426" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mypack/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19847329">
@@ -1560,20 +1496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5903308">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding>
-            <marker date="1461896232000" expanded="true" signature="185:253" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="722:1193" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="976:1191" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="1085:1118" placeholder="{...}" />
-            <marker date="1461896232000" expanded="true" signature="1126:1187" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mypack/app/assets/stylesheets/users.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1596,6 +1518,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1972873">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <marker date="1461896377000" expanded="true" signature="188:278" placeholder="#..." />
+            <marker date="1461896377000" expanded="true" signature="463:614" placeholder="#..." />
+            <marker date="1461896377000" expanded="true" signature="963:1155" placeholder="#..." />
+            <marker date="1461896377000" expanded="true" signature="1183:1288" placeholder="do ... end" />
+            <marker date="1461896377000" expanded="true" signature="1309:1573" placeholder="do ... end" />
+            <marker date="1461896377000" expanded="true" signature="1593:1616" placeholder="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mypack/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80887794">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1461898050000" expanded="true" signature="690:741" placeholder="production:" />
+            <marker date="1461898050000" expanded="true" signature="742:793" placeholder="development:" />
+            <marker date="1461898050000" expanded="true" signature="794:839" placeholder="test:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mypack/app/views/pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mypack/app/views/pages/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14249364">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <marker date="1461895387000" expanded="true" signature="21:443" placeholder="..." />
+            <marker date="1461895387000" expanded="true" signature="28:37" placeholder="..." />
+            <marker date="1461895387000" expanded="true" signature="44:435" placeholder="..." />
+            <marker date="1461895387000" expanded="true" signature="64:389" placeholder="..." />
+            <marker date="1461895387000" expanded="true" signature="90:381" placeholder="..." />
+            <marker date="1461895387000" expanded="true" signature="118:371" placeholder="..." />
+            <marker date="1461895387000" expanded="true" signature="147:361" placeholder="..." />
+            <marker date="1461895387000" expanded="true" signature="417:426" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mypack/app/assets/stylesheets/pages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54834604">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
           <folding />
         </state>
       </provider>

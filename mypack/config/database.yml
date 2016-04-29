@@ -24,32 +24,23 @@
 #  <<: *default
 #  database: db/production.sqlite3
 
-development:
+default: &default
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: mypack_dev
   pool: 5
   username: root
   password:
-#  socket: /var/run/mysqld/mysqld.sock
-
-test:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: mypack_test
-  pool: 5
-  username: root
-  password:
-#  socket: /var/run/mysqld/mysqld.sock
 
 production:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
+  <<: *default
   database: mypack_prod
-  pool: 5
-  username: root
-  password:
-#  socket: /var/run/mysqld/mysqld.sock
+
+development:
+  <<: *default
+  database: mypack_dev
+
+test:
+  <<: *default
+  database: mypack_test
+
