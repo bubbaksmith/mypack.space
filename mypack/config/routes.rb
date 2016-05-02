@@ -1,21 +1,27 @@
 Rails.application.routes.draw do
-  get 'users/new'
+  get 'sessions/new'
+
+  # get 'users/new'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
-  root to: 'pages#index'
+  root 'pages#index'
+  # root to: 'pages#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-  get 'home'    => 'pages#index'
-  get 'profile' => 'pages#index'
-  get 'weight'  => 'pages#weight'
+  get 'home'      => 'pages#index'
+  get 'profile'   => 'pages#index'
+  get 'weight'    => 'pages#weight'
 
-  get  'sign_up' => 'users#new'
-  post 'sign_up' => 'users#create'
+  get  'sign_up'  => 'users#new'
+  post 'sign_up'  => 'users#create'
+
+  get    'login'  => 'sessions#new'
+  post   'login'  => 'sessions#create'
+  delete 'logout' => 'sessions#destroy'
 
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
