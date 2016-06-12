@@ -1,0 +1,47 @@
+footer {
+
+  //margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  background-color: white;
+
+  bottom: 0;
+  position: fixed;
+  width: 100%
+}
+
+footer .footer-body {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+footer a {
+  color: #555;
+  margin-top: auto;
+  margin-bottom:auto;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+  margin-top: auto;
+  margin-bottom:auto;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+  //margin-top: auto;
+  //margin-bottom:auto;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+  margin-top: auto;
+  margin-bottom:auto;
+}

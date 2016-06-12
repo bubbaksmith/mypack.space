@@ -1,3 +1,52 @@
+/* line 1, /Users/brian/mypack/mypack/app/assets/stylesheets/footer.scss */
+footer {
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  background-color: white;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+/* line 14, /Users/brian/mypack/mypack/app/assets/stylesheets/footer.scss */
+footer .footer-body {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* line 19, /Users/brian/mypack/mypack/app/assets/stylesheets/footer.scss */
+footer a {
+  color: #555;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* line 25, /Users/brian/mypack/mypack/app/assets/stylesheets/footer.scss */
+footer a:hover {
+  color: #222;
+}
+
+/* line 29, /Users/brian/mypack/mypack/app/assets/stylesheets/footer.scss */
+footer small {
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* line 35, /Users/brian/mypack/mypack/app/assets/stylesheets/footer.scss */
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+/* line 42, /Users/brian/mypack/mypack/app/assets/stylesheets/footer.scss */
+footer ul li {
+  float: left;
+  margin-left: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 @charset "UTF-8";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -8013,51 +8062,39 @@ button.close {
   font-family: 'Lato', sans-serif;
 }
 
-/* footer */
-/* line 61, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
-footer {
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  width: 95%;
-  color: #777;
-  bottom: 0;
-  position: fixed;
+/* line 59, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+body {
+  padding-top: 50px;
 }
-
-/* line 74, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
-footer a {
-  color: #555;
+/* line 62, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+body .col-sm-12 {
+  padding-right: 0px;
+  padding-left: 0px;
 }
-
-/* line 78, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
-footer a:hover {
-  color: #222;
-}
-
-/* line 82, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
-footer small {
-  float: left;
-}
-
-/* line 86, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-/* line 91, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
-footer ul li {
-  float: left;
-  margin-left: 15px;
+/* line 67, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+body .row {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 /* line 1, /Users/brian/mypack/mypack/app/assets/stylesheets/sign_form.scss */
 .sign_form {
   margin-left: auto;
   margin-right: auto;
   max-width: 400px;
+}
+
+/* line 7, /Users/brian/mypack/mypack/app/assets/stylesheets/sign_form.scss */
+.log-in-form {
+  top: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  max-width: 500px;
+}
+
+/* line 15, /Users/brian/mypack/mypack/app/assets/stylesheets/sign_form.scss */
+.log-in-entry {
+  margin-bottom: 10px;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
