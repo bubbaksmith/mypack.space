@@ -14,3 +14,39 @@
  *= require_self
  */
 
+/* footer */
+
+footer {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    width: 95%;
+    color: #777;
+
+    bottom: 0;
+    position:fixed;
+}
+
+footer a {
+    color: #555;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
