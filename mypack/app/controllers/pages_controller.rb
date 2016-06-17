@@ -13,7 +13,8 @@ class PagesController < ApplicationController
   end
 
   def weight
-    @greeting = "\"Not all who wander are lost\" - J.R.R. Tolkien"
+    # @greeting = "\"Not all who wander are lost\" - J.R.R. Tolkien"
+    @greeting = "Don't run with scissors. Unless you named your dog sceissors. In which case thats cool..."
   end
 
 end
