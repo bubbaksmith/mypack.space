@@ -9,6 +9,6 @@ module ApplicationHelper
   end
 
   def user_signed_in
-    @user
+    $user
   end
 end
