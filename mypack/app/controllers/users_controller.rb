@@ -1,14 +1,14 @@
 class UsersController < ApplicationController
 
   def new
-    $user = User.new
+    @user = User.new
   end
 
   def create
-    $user = User.new(user_params)
-    if $user.save
+    @user = User.new(user_params)
+    if @user.save
       flash[:success] = "You signed up successfully!"
-      redirect_to home_path, $user
+      redirect_to @user
     else
       flash[:alert]   = "Form is invalid. See below for details."
       render "new"
