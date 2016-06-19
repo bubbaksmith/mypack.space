@@ -1,8 +1,6 @@
 <% provide(:title, "UserAuth | Signup") %>
 
-<% if flash and !@user['username'].nil?%>
-    <%= render 'layouts/flash_message' %>
-<% end %>
+<%= render 'layouts/flash_message' if flash %>
 
 <div class="panel panel-primary log-in-form">
   <!-- Default panel contents -->
