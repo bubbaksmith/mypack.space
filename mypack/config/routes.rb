@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get 'home'      => 'pages#index'
   get 'profile'   => 'pages#index'
   get 'weight'    => 'pages#weight'
+  get 'about'     => 'pages#about'
 
   get  'sign_up'  => 'users#new'
   post 'sign_up'  => 'users#create'
