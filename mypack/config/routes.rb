@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
+
 
   # get 'users/new'
 
@@ -19,11 +19,17 @@ Rails.application.routes.draw do
   get  'sign_up'  => 'users#new'
   post 'sign_up'  => 'users#create'
 
-  get    'login'  => 'sessions#new'
-  post   'login'  => 'sessions#create'
+  get    'login'  => 'sessions#login'
+  post   'login'  => 'sessions#login_attempt'
   delete 'logout' => 'sessions#destroy'
 
   get 'user' => 'sessions#create'
+
+  get 'sessions/login'
+  get 'sessions/home'
+  get 'sessions/profile'
+  get 'sessions/setting'
+  get 'sessions/new'
 
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
