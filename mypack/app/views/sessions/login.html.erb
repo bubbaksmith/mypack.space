@@ -2,10 +2,13 @@
 
 <div class="panel panel-primary log-in-form">
   <div class="panel-heading"> Log in </div>
-  <%= form_tag(:action => 'login_attempt') do %>
-      <p>Username or Email:</br> <%= text_field_tag(:username_or_email) %></p>
-      <p>Password:</br> <%= password_field_tag :login_password %></p>
-      <%= submit_tag("Log In") %>
-  <% end %>
+    <div class="panel-body">
+      <%= form_tag(:action => 'login_attempt') do %>
+          <p>Username or Email:</br> <%= text_field_tag(:username_or_email, nil, class: 'form-control log-in-entry') %></p>
+          <p>Password:</br> <%= password_field_tag :login_password, nil, class: 'form-control log-in-entry' %></p>
+          <%= submit_tag("Log In", class: 'btn btn-primary log-in-entry') %>
+      <% end %>
+      <p>New user? <%= link_to "Sign up now!", sign_up_path %></p>
+    </div>
   </div>
 </div>
