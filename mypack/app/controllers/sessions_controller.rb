@@ -29,7 +29,7 @@ class SessionsController < ApplicationController
     redirect_to :action => 'login'
   end
 
-  before_filter :authenticate_user, :only => [:home, :profile, :setting, :index]
+  before_filter :authenticate_user, :only => [:home, :profile, :setting, 'index']
   before_filter :save_login_state, :only => [:login, :login_attempt]
 
 
