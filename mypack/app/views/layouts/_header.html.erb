@@ -36,9 +36,9 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <%= (@user and !@user['username'].nil?) ?
-                (link_to "#{@user['username']}", :root) :
-                (link_to "Login", :login) %>
+              <%= @current_user ?
+                (link_to "Log out", logout_path) :
+                (link_to "Log in", :login) %>
             </li>
             <!--<li><a href="#">Login</a></li>-->
           </ul>

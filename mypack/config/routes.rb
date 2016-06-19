@@ -21,9 +21,10 @@ Rails.application.routes.draw do
 
   get    'login'  => 'sessions#login'
   post   'login'  => 'sessions#login_attempt'
+  get    'logout' => 'sessions#logout'
   delete 'logout' => 'sessions#destroy'
 
-  get 'user' => 'sessions#create'
+  get 'user' => 'pages#index'
 
   get 'sessions/login'
   get 'sessions/home'
