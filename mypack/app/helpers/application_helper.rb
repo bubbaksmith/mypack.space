@@ -7,8 +7,4 @@ module ApplicationHelper
       when :alert then "alert alert-danger"
     end
   end
-
-  def user_signed_in
-    @user
-  end
 end
