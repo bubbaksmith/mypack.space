@@ -8,7 +8,8 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body class="<%="max" if request.fullpath[/home$|login$|sign_up$/]%>">
+<body class="<%="max" if request.fullpath[/home$|login$|sign_up$|^\/$/]%>">
+
 <%= render "layouts/header" %>
   <%= yield %>
 <%= render "layouts/footer" %>
