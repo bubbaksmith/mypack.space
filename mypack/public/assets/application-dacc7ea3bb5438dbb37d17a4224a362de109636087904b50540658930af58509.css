@@ -11549,16 +11549,32 @@ button.close {
 }
 
 /* line 31, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+.max {
+  background-image: url(/assets/background/max_body_background-30d5fa1366c2513d59e70b60ec60026e7f4aa125e0347ecc9613aae1256d35e4.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+/* line 40, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+.main_text {
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 3px;
+}
+
+/* line 50, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 .jumbotron {
   position: relative;
-  min-height: 350px;
-  background-image: url(/assets/max_yonah/max_yonah_1600-min-32cf955459288755885c865458beab68440bdfef1792591519962990591ee726.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   text-shadow: 0px 0px 3px #000000;
 }
-/* line 40, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+/* line 59, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 .jumbotron .jumbo-text {
   position: absolute;
   bottom: 10px;
@@ -11566,26 +11582,26 @@ button.close {
   color: white;
   font-weight: bold;
 }
-/* line 47, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+/* line 66, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 .jumbotron .jumbo-text h2 {
   margin-bottom: 2px;
 }
-/* line 51, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+/* line 70, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 .jumbotron .jumbo-text p {
   margin-bottom: 10px;
   font-family: 'Lato', sans-serif;
 }
 
-/* line 59, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+/* line 78, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 body {
   padding-top: 50px;
 }
-/* line 62, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+/* line 81, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 body .col-sm-12 {
   padding-right: 0px;
   padding-left: 0px;
 }
-/* line 67, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
+/* line 86, /Users/brian/mypack/mypack/app/assets/stylesheets/pages.scss */
 body .row {
   margin-right: 0px;
   margin-left: 0px;
@@ -11609,6 +11625,128 @@ body .row {
 /* line 15, /Users/brian/mypack/mypack/app/assets/stylesheets/sign_form.scss */
 .log-in-entry {
   margin-bottom: 10px;
+}
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Toggle Styles */
+
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 200px;
+}
+
+#sidebar-wrapper {
+    /*z-index: 1000;*/
+    position: fixed;
+    left: 200px;
+    width: 0;
+    height: 100%;
+    margin-left: -200px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 200px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -200px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 200px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 200px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
